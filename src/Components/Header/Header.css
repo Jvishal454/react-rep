@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Poetsen+One&display=swap'); 
+
+.header-title{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fb8500;
+    font-size: x-large;
+}
+
+.freeman-regular {
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.svg-cart{
+    height: 50px;
+    /* background-color: red; */
+}
