@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import './Header.css'
 
 import CartSvg from '../../assets/SVG/cart.svg'
@@ -28,7 +29,16 @@ const Header = () => {
                <p className='header-title'> DzuoKart</p> 
                <img className='svg-cart' src={CartSvg} alt="" />
               </Typography>
-              <Button color="inherit">Login</Button>
+              <Button variant="outlined" color="inherit">Login</Button>
+              <IconButton
+                size="large"
+                edge="start"
+                color="inherit"
+                aria-label="menu"
+                sx={{ marginLeft: '1em', }}
+              >
+                <AccountCircleIcon style={{ fontSize: '26px',}} />
+              </IconButton>
             </Toolbar>
           </AppBar>
         </Box>
