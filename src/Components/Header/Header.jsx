@@ -29,13 +29,15 @@ const Header = () => {
                <p className='header-title'> DzuoKart</p> 
                <img className='svg-cart' src={CartSvg} alt="" />
               </Typography>
-              <Button variant="outlined" color="inherit">Login</Button>
+              <Button style={{ border: '1px solid #FBAB7E', padding: '9px 30px', borderRadius: '50px', transition: '0.3s' }} variant="outlined" color="inherit" onClick={() => {
+                        alert('Login clicked');
+                      }}>Login</Button>
               <IconButton
                 size="large"
                 edge="start"
                 color="inherit"
                 aria-label="menu"
-                sx={{ marginLeft: '1em', }}
+                sx={{ marginLeft: '0.5em', }}
               >
                 <AccountCircleIcon style={{ fontSize: '26px',}} />
               </IconButton>
