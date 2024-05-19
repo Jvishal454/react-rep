@@ -12,7 +12,7 @@ const Home = () => {
         </div>
         <div className="row-2">
           
-          <img className='svg-cart' src={svgShopping1} alt="" />
+          <img className='svg-cart' src={svgShopping1} alt="" draggable='false' />
         </div>
        </div>
        <div className="col">
