@@ -6,6 +6,7 @@ import './App.css'
 import Header from './Components/Header/Header'
 import Home from './Components/Home/Home';
 import Test from './Components/Test/Test';
+import LandingPage from './Pages/LandingPage';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +16,7 @@ function App() {
       <Router>
       <Header />
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={<LandingPage />} />
         <Route path='/test' element={<Test />} />
       </Routes>
       </Router>

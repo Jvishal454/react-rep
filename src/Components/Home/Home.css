@@ -23,20 +23,27 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
+    align-items: flex-start;
+    padding-left: 2.5em;
     color: white;
     font-size: xx-large;
     flex: 1;
 }
 
-.row-1 p:nth-child(1){
-    font-size: 150px;
-    padding-left: 1em;
+/* .row-1 p:nth-child(1){
+    font-size: 50px;
+}  */
+
+ .row-1 p:nth-child(2){
+    font-size: 130px;
 }
 
-.row-1 p:nth-child(2){
+.row-1 p:nth-child(3){
     font-size: 50px;
-    padding-left: 5em;
+} 
+
+.row-1 Button{
+    margin-top: 3em;
 }
 
 .container .col-1 .row-2{
@@ -58,4 +65,3 @@
     background-image: linear-gradient(62deg, #fcb69f 0%, #ffecd2 100%); */
     /* background-color: dodgerblue; */
 }
-
