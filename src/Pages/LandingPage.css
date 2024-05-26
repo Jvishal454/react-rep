@@ -1,0 +1,16 @@
+
+.explore-menu{
+    display: flex;
+    justify-content: center;
+     /* max-width: 95%; */
+     padding: 2em 6em 0 6em;
+    /* background-color: aquamarine;  */
+}
+
+.food-display{
+    display: flex;
+    flex-direction: column;
+    padding: 2em 6em 0 6em;
+    /* background-color: blanchedalmond; */
+    /* width: 90%; */
+}
