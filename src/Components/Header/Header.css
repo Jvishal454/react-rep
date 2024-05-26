@@ -1,29 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Poetsen+One&display=swap'); 
-
-.header-title{
-    font-family: "Poetsen One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #fb8500;
-    font-size: x-large;
+.header {
+    height: 34vw;
+    margin: 30px auto;
+    background: url('/header_img.png');
+    background-size: contain;
+    position: relative;
+    background-repeat: no-repeat;
 }
 
-.freeman-regular {
-    font-family: "Freeman", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-.svg-cart{
-    height: 30px;
-    padding-left: 0.3em;
-    padding-top: 0.15em;
-    /* background-color: red; */
+.header-contents {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+    animation: fadeIn 3s;
 }
-/* 
-.btn-login{
-    border: 2px solid grey;
-    border-radius: 5%;
-    padding: 5px 15px 5px 15px;
-} */
+
+.header-contents h2 {
+    font-weight: 500;
+    color: white;
+    font-size: max(4.5vw, 22px);
+}
+
+.header-contents p {
+    color: white;
+    font-size: 1vw;
+}
+
+.header-contents button {
+    border: none;
+    color: #747474;
+    font-weight: 500;
+    padding: 1vw 2.2vw;
+    background-color: white;
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+}
+
+@media(max-width: 1050px) {
+
+    .header-contents {
+        max-width: 45%;
+    }
+}
+
+@media(max-width: 750px) {
+    .header-contents {
+        max-width: 65%;
+    }
+
+    .header-contents p {
+        display: none;
+    }
+
+    .header-contents button {
+        padding: 2vw 4vw;
+    }
+}

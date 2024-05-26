@@ -23,7 +23,7 @@ const ExploreMenu = ({ setCategory, category }) => {
               className="explore-menu-list-item"
             >
               <img
-                className={category === item.menu_name ? "active" : ""}
+                className={ category === item.menu_name ? "active" : ""}
                 src={item.menu_image}
                 alt=""
               />

@@ -1,9 +1,9 @@
 import React from 'react'
-import './Home.css'
+import './Banner.css'
 import svgShopping1 from '../../assets/SVG/shopping-1.svg'
 import { Button } from '@mui/material'
 
-const Home = () => {
+const Banner = () => {
   return (
     <div className='container'>
        <div className="col-1">
@@ -25,4 +25,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Banner

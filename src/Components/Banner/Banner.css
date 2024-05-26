@@ -4,7 +4,8 @@
     justify-content: flex-start;
     align-items: center;
     width: 100%;
-
+    margin-bottom: 1em;
+     
     /* padding: 1em; */
     /* background-color: dodgerblue; */
     
@@ -15,6 +16,7 @@
     display: flex;
     width: 100%;
     background-color: #FBAB7E;
+    border-radius: 25px;
     background-image: linear-gradient(62deg, #fcb69f 0%, #ffecd2 100%);
     /* background-color: dodgerblue; */
 }
@@ -39,7 +41,7 @@
 }
 
 .row-1 p:nth-child(3){
-    font-size: 50px;
+    font-size: 50px; 
 } 
 
 .row-1 Button{

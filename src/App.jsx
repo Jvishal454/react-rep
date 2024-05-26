@@ -1,27 +1,27 @@
-import { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Header from './Components/Header/Header'
-import Home from './Components/Home/Home';
-import Test from './Components/Test/Test';
-import LandingPage from './Pages/LandingPage';
-
-function App() {
-  const [count, setCount] = useState(0)
-
+import React, { useState } from "react";
+import Navbar from "./components/Navbar/Navbar";
+import { Route, Routes } from "react-router-dom";
+import Cart from "./pages/Cart/Cart";
+import Home from "./pages/Home/Home";
+import PlaceOrder from "./pages/PlaceOrder/PlaceOrder";
+import Footer from "./components/Footer/Footer";
+import LoginPopup from "./components/LoginPopup/LoginPopup";
+const App = () => {
+  const [showLogin, setShowLogin] = useState(false)
   return (
-    <div>
-      <Router>
-      <Header />
-      <Routes>
-        <Route path='/' element={<LandingPage />} />
-        <Route path='/test' element={<Test />} />
-      </Routes>
-      </Router>
-    </div>
-  )
-}
+    <>
+      {showLogin ? <LoginPopup setShowLogin={setShowLogin} /> : <></>}
+      <div className="app">
+        <Navbar setShowLogin={setShowLogin} />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Cart" element={<Cart />} />
+          <Route path="/order" element={<PlaceOrder />} />
+        </Routes>
+      </div>
+      <Footer />
+    </>
+  );
+};
 
-export default App
+export default App;

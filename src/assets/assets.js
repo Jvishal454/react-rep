@@ -2,6 +2,14 @@ import basket_icon from './basket_icon.png'
 import logo from './logo.png'
 import header_img from './header_img.png'
 import search_icon from './search_icon.png'
+
+import menu_jeans_1 from './products/category/Jeans-1.jpg'
+import tops_1 from './products/category/tops-1.jpg'
+import menu_shoe from './products/category/shoes.jpg'
+
+import tops_2 from './products/Tops/tops-2/tops-2.jpg'
+import hoodie_1 from './products/hoodies/hoodie-1/hoodie-1.jpg'
+
 import menu_1 from './menu_1.png'
 import menu_2 from './menu_2.png'
 import menu_3 from './menu_3.png'
@@ -44,6 +52,9 @@ import food_30 from './food_30.png'
 import food_31 from './food_31.png'
 import food_32 from './food_32.png'
 
+import jeans_1 from './products/jeans-1/Jeans-1.jpg'
+
+
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
 import remove_icon_red from './remove_icon_red.png'
@@ -84,20 +95,20 @@ export const assets = {
 
 export const menu_list = [
     {
-        menu_name: "Salad",
-        menu_image: menu_1
+        menu_name: "Jeans", 
+        menu_image: menu_jeans_1
     },
     {
-        menu_name: "Rolls",
-        menu_image: menu_2
+        menu_name: "Tops",
+        menu_image: tops_1
     },
     {
-        menu_name: "Deserts",
+        menu_name: "Hoodies",
         menu_image: menu_3
     },
     {
-        menu_name: "Sandwich",
-        menu_image: menu_4
+        menu_name: "Shoes",
+        menu_image: menu_shoe
     },
     {
         menu_name: "Cake",
@@ -119,11 +130,11 @@ export const menu_list = [
 export const food_list = [
     {
         _id: "1",
-        name: "Greek salad",
-        image: food_1,
-        price: 175,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        name: "Zara Fit Jeans",
+        image: jeans_1,
+        price: 3575,
+        description: "Jeans featuring an adjustable interior waistband and front button fastening. Front pockets, matching on the leg and back.",
+        category: "Jeans"
     },
     {
         _id: "2",
@@ -134,18 +145,18 @@ export const food_list = [
         category: "Salad"
     }, {
         _id: "3",
-        name: "Clover Salad",
-        image: food_3,
+        name: "Forever 21 Top",
+        image: tops_2,
         price: 200,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "Great-fitting top. Long sleeves with elasticated cuffs. Front pockets.",
+        category: "Tops"
     }, {
         _id: "4",
-        name: "Chicken Salad",
-        image: food_4,
+        name: "Everlast Hoodie",
+        image: hoodie_1,
         price: 299,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "Loose-fitting hoodie with a high neck and adjustable drawstrings",
+        category: "Hoodies"
     }, {
         _id: "5",
         name: "Lasagna Rolls",

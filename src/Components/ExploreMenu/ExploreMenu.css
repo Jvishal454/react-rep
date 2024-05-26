@@ -30,10 +30,12 @@
 
 .explore-menu-list-item img {
     width: 7.5vw;
+    /* height: 16vh; */
     min-width: 80px;
     cursor: pointer;
     border-radius: 50%;
     transition: 0.2s;
+    object-fit: cover;
 }
 
 .explore-menu-list-item p {
@@ -61,3 +63,4 @@
         font-size: 14px;
     }
 }
+
