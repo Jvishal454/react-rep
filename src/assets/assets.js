@@ -5,10 +5,18 @@ import search_icon from './search_icon.png'
 
 import menu_jeans_1 from './products/category/Jeans-1.jpg'
 import tops_1 from './products/category/tops-1.jpg'
+import menu_hoodie from './products/category/hoodie-2.png'
 import menu_shoe from './products/category/shoes.jpg'
+import menu_jacket from './products/category/jacket.png'
+import menu_laptop from './products/category/laptop-1.jpg'
+import menu_phone from './products/category/phone.png'
+import menu_tv from './products/category/tv-1.jpg'
 
 import tops_2 from './products/Tops/tops-2/tops-2.jpg'
 import hoodie_1 from './products/hoodies/hoodie-1/hoodie-1.jpg'
+import hoodie_3 from './products/hoodies/hoodie-3/hoodie-3.png'
+import jacket_1 from './products/jackets/jacket-1/jacket.png'
+import laptop_1 from './products/electronics/laptops/laptop-1/laptop-1.jpg'
 
 import menu_1 from './menu_1.png'
 import menu_2 from './menu_2.png'
@@ -104,27 +112,27 @@ export const menu_list = [
     },
     {
         menu_name: "Hoodies",
-        menu_image: menu_3
+        menu_image: menu_hoodie
     },
     {
         menu_name: "Shoes",
         menu_image: menu_shoe
     },
     {
-        menu_name: "Cake",
-        menu_image: menu_5
+        menu_name: "Jacket",
+        menu_image: menu_jacket
     },
     {
-        menu_name: "Pure Veg",
-        menu_image: menu_6
+        menu_name: "Laptops",
+        menu_image: menu_laptop
     },
     {
-        menu_name: "Pasta",
-        menu_image: menu_7
+        menu_name: "Phone",
+        menu_image: menu_phone
     },
     {
-        menu_name: "Noodles",
-        menu_image: menu_8
+        menu_name: "TV",
+        menu_image: menu_tv
     }]
 
 export const food_list = [
@@ -138,11 +146,11 @@ export const food_list = [
     },
     {
         _id: "2",
-        name: "Veg salad",
-        image: food_2,
+        name: "Jacket",
+        image: jacket_1,
         price: 107,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "Jackets"
     }, {
         _id: "3",
         name: "Forever 21 Top",
@@ -166,11 +174,11 @@ export const food_list = [
         category: "Rolls"
     }, {
         _id: "6",
-        name: "Peri Peri Rolls",
-        image: food_6,
-        price: 145,
+        name: "Adidas Hoodie",
+        image: hoodie_3,
+        price: 4500,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        category: "Hoodies"
     }, {
         _id: "7",
         name: "Chicken Rolls",
@@ -273,18 +281,18 @@ export const food_list = [
         category: "Cake"
     }, {
         _id: "21",
-        name: "Garlic Mushroom ",
-        image: food_21,
-        price: 413,
+        name: "Dell Laptop ",
+        image: laptop_1,
+        price: 51500,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        category: "Laptops"
     }, {
         _id: "22",
         name: "Fried Cauliflower",
         image: food_22,
         price: 165,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        category: "Laptops"
     }, {
         _id: "23",
         name: "Mix Veg Pulao",

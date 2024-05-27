@@ -4,11 +4,9 @@ import { menu_list } from "../../assets/assets";
 const ExploreMenu = ({ setCategory, category }) => {
   return (
     <div className="explore-menu" id="explore-menu">
-      <h1>Explore our menu</h1>
+      <h1>Shop by Menu Category</h1>
       <p className="explore-menu-text">
-        Choose from a diverse menu featuring a delectable array of dishes. Our
-        mission is to satisfy your craving and elevate your dining experience,
-        one delicious meal at a time.
+        Choose from a diverse range featuring from Clothes, Shoes to Laptops. Get upto 20% discount on shopping for more than ₹5000, Explore all your loved brands here on DzuoKart.
       </p>
       <div className="explore-menu-list">
         {menu_list.map((item, index) => {
